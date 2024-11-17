@@ -8,7 +8,7 @@ docker build -t test-image .
 
 then
 
-docker run --platform linux/amd64 -p 9000:8080 test-image
+**docker run --platform linux/amd64 -p 9000:8080 test-image**
 
 after that  you can test locally by performing post
 powershell command
